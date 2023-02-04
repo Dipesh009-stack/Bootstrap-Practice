@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Driving License Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body background="img2.jpg">
+    <img src="img1.jpg" alt="driving image" height="200" width="1500" />
+    <br />
+    <hr />
+    <a href="#">Home</a>
+    <br />
+    <br />
+    <p>Enter the details</p>
+    <fieldset>
+    <div class="row">
+      <div class="column">
+      <form action="form" method="post">
+      
+          <label for="bloodgroup">BLOOD GROUP *</label>
+          <select name="bloodgroup" id="bid" required>
+            <option value="bloodgroup">Select</option>
+            <option value="option1">A</option>
+            <option value="option1">AB</option>
+            <option value="option1">A-</option>
+            <option value="option1">O-</option>
+            <option value="option1">B+</option>
+            <option value="option1">B Negative rear blood gr</option>
+          </select>
+          <br>
+          <br>
+          <label for="Citizenship">CITIZENSHIP NO. *</label>
+          <input type="text" required>
+          <br>
+          <br>
+          <label for="passport">PASSPORT NO. </label>
+          <input type="text">
+          <br><br>
+          <label for="passport">IDENTITY MARK. </label>
+          <input type="text">
+          <br><br>
+          <label for="passport">WITNESS FIRST NAME *. </label>
+          <input type="text" required placeholder="First Name">
+          <br><br>
+          <label for="passport">WITNESS LAST NAME *. </label>
+          <input type="text" required placeholder="Last Name">
+          <br><br>
+          <label for="passport">TRAINER NAME</label>
+          <input type="text">
+      </div>
+      <div class="column"> 
+      <label for="citienship">CITIZENSHIP *</label>
+      <input type="text" readonly placeholder="Nepal">
+      <br><br>
+      <label for="cid">CITIZENSHIP ISSUE DISTRICT *</label>
+      <select name="cid" id="cid" >
+        <option value="select">Select</option>
+        <option value="select">Kathmandu citizenship al</option>
+        <option value="select">Ilam</option>
+        <option value="select">Bhaktapur</option>
+        <option value="select">Jhapa</option>   
+      </select>
+      <br><br>
+      <label for="cid">PASSPORT ISSUED COUNTRY *</label>
+      <select name="cid" id="cid" >
+        <option value="select">Select</option>
+        <option value="select">Nepal</option>
+        <option value="select">China</option>
+        <option value="select">United States of America</option>
+        <option value="select">India</option>   
+      </select>
+      <br><br> <br></BR>
+      <label for="passport">WITNESS MIDDLE NAME . </label>
+          <input type="text" required placeholder="First Name">
+          <br><br>
+          <label for="passport">WITNESS RELATIONSHIP *. </label>
+          <input type="text" required placeholder="Last Name">
+          <br><br>
+          <label for="passport">TRAINER LICENSE NO.</label>
+          <input type="text">
+      </div>
+    </div>
+    <br>
+    <table border="0" >
+      <tr>
+        <td bgcolor="grey" align="center">ADDRESS DETAILS</td>
+      </tr>
+      <tr>
+        <td align="center">PERMANENT ADDRESS</td>
+      </tr>
+    </table>
+    <div class="row">
+        <div class="column">
+          <form action="#">
+            <label for="dw">ZONE *</label>
+            <select name="zone" id="zone">
+              <option value="dd">Select</option>
+              <option value="dd">Bagmati Bagmati Bagma</option>
+              <option value="dd">Bagmati</option>
+              <option value="dd">Bagmati</option>
+              <option value="dd">Bagmati</option>
+            </select>
+            <br><br>
+            <label for="dw">VILLAGE *</label>
+            <select name="zone" id="zone">
+              <option value="dd">Select</option>
+              <option value="dd">Bagmati Bagmati Bagma</option>
+              <option value="dd">Bagmati</option>
+              <option value="dd">Bagmati</option>
+              <option value="dd">Bagmati</option>
+            </select>
+            <br><br>
+            <label for="d">TOLE *</label>
+            <input type="text">
+            <br> <br>
+            <label for="mobno">MOBILE NO. *</label>
+          <input type="text" placeholder=Mobile">
+          <br> <br>
+            <label for="mobno">CONTACT NO. *</label>
+          <input type="text" placeholder="Emergency">
+          </form>
+        </div>
+        <div class="column">
+        <label for="district">DISTRICT *</label>
+        <select name="dis" id="did">
+          <option value="select">Select</option>
+          <option value="select">Kathmandu</option>
+          <option value="select">Select Bagmati Bagmatii</option>
+          <option value="select">Select</option>
+          <option value="select">Select</option>
+          <option value="select">Select</option>
+        </select>
+        <br><br>
+        <label for="ward">WARD NO *</label>
+        <input type="text">
+        <br><br>
+        <label for="ward">BLOCK NO *</label>
+        <input type="text">
+        <br><br>
+        <label for="ward">OFFICE CONTACT NO *</label>
+        <input type="text">
+        <br><br>
+        <label for="ward">EMAIL *</label>
+        <input type="email" placeholder="Email Address">
+        <br><br> <br>
+        <input type="submit">
+        </div>
+      </div>
+  </fieldset>
+  </form> 
+  
+  </body>
+</html>

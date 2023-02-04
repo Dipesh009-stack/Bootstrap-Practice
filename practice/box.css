@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.header{
+    height: 300px;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    background-color: orange;
+    border:2px solid #0d0000;
+}
+
+.body1{
+    background-color: yellow;
+    width: 50%;
+    float: left;
+    height: 65px;
+}
+
+.footer1{
+    height: 120px;
+    width: 22%;
+    float: left;
+    background-color: #a9a9f3;
+    margin: 29px 20px 1px 8px;
+    padding: 7px 107px 209px 12px;
+    border: 2px solid #0d0000;
+    
+    
+    
+}

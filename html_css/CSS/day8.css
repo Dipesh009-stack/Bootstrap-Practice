@@ -1,0 +1,44 @@
+.dotted{
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+}
+.dashed{
+    border-color:black ;
+    border-style: dashed;
+    border-width: 5px;
+}
+.double{
+    border-color:black ;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 4cm;
+}
+.solid{
+    border-color:black ;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2cm;
+}
+.content{
+    width: 70%;
+    height: 500px;
+    border-style: solid;
+    border-color: balck;
+    border-radius: 2ch;
+    background-color: azure;
+}
+h3, p{
+    padding-left: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+body{
+    background-image:url(image/img3.jpg);   
+    background-repeat: no-repeat;  /* no repetition of background image*/
+    background-position: center;
+    /* background-position: left;    This makes image to the left basically used for logo in navbar*/
+    /* background-position: right; This makes image float to right usually used for logo or some other in navbsar */
+    
+}

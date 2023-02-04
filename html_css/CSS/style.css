@@ -1,0 +1,33 @@
+/* invoke by class-> to select certain numbner of tags or element*/
+/* Invoke by id-> to single specific tag or element */
+
+/* To invoke by class we must use dot first and class name */
+.div-one{
+    width: 400px;  /* Fix width*/
+    height: 200px;
+    background-color: grey;
+    color: white !important;  
+    /* for the priority of external css we use impottant */
+
+}
+
+.div-two-nest{
+    width: 100%;  /* Dynamic Width*/
+    height: 100px;
+    background-color: bisque;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.div-three{
+    width: 100%;
+    height: 200px;
+    background-color: burlywood;
+}
+
+/* invoke by id we use hash */
+#div-two-text{
+    padding-left: 50px;
+    padding-top: 10px   ;
+}
